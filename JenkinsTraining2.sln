@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JenkinsTraining2", "JenkinsTraining2\JenkinsTraining2.csproj", "{C16BF0F1-30E7-4C34-9AEB-A2F021451091}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JenkinsTraining2", "JenkinsTraining2\JenkinsTraining2.csproj", "{C16BF0F1-30E7-4C34-9AEB-A2F021451091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramJenkinsTraining2", "ProgramJenkinsTraining2\ProgramJenkinsTraining2.csproj", "{ABDF6FA9-5703-4E76-B45F-F36BFD34BAC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C16BF0F1-30E7-4C34-9AEB-A2F021451091}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C16BF0F1-30E7-4C34-9AEB-A2F021451091}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C16BF0F1-30E7-4C34-9AEB-A2F021451091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABDF6FA9-5703-4E76-B45F-F36BFD34BAC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDF6FA9-5703-4E76-B45F-F36BFD34BAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDF6FA9-5703-4E76-B45F-F36BFD34BAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDF6FA9-5703-4E76-B45F-F36BFD34BAC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
