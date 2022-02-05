@@ -1,0 +1,6 @@
+{
+  "environment": "gg",
+  "runtime": {
+    "library_path": ".\\MixedRealityRuntime.dll"
+  }
+}
