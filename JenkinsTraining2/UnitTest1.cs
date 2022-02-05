@@ -38,15 +38,15 @@ namespace JenkinsTraining
         {
             test = rep.CreateTest("TEst 4");
             test.Log(Status.Info, "Start TEst 4");
-            Assert.AreEqual("Say Hi", Program2.Hi());
+            Assert.AreEqual("Say Hi!", Program2.Hi());
             rep.Flush();
         }
 
         [Test]
-        public void Test5()
+        public void TestGGGG()
         {
-            test = rep.CreateTest("TEst 5");
-            test.Log(Status.Info, "Start TEst 5");
+            test = rep.CreateTest("TEst GGGG");
+            test.Log(Status.Info, "Start TEst GGGG");
             Assert.AreEqual("Say Hi!", Program2.Hi());
             rep.Flush();
         }

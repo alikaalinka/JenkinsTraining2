@@ -16,12 +16,12 @@ namespace JenkinsTraining
         {
             if (extent == null)
             {
-                var reportPath = @"C:\Users\Стас\source\repos\JenkinsTraining\JenkinsTraining\Report.html";
+                var reportPath = @"C:\Users\Стас\source\repos\JenkinsTraining2\JenkinsTraining2\Report.html";
                 htmlReporter = new ExtentHtmlReporter(reportPath);
                 extent = new ExtentReports();
                 extent.AttachReporter(htmlReporter);
 
-                var extentConfigPath = @"C:\Users\Стас\source\repos\JenkinsTraining\JenkinsTraining\extent-config.xml";
+                var extentConfigPath = @"C:\Users\Стас\source\repos\JenkinsTraining2\JenkinsTraining2\extent-config.xml";
                 htmlReporter.LoadConfig(extentConfigPath);
 
             }
